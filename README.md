@@ -1,6 +1,10 @@
 # Tutorial-Game-Hacking
 
-[![License: ISC](https://img.shields.io/badge/license-ISC-blue.svg)](LICENSE.md)
+<p align="center">
+	<a href="LICENSE.md">
+		<img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-5271FF?style=for-the-badge">
+	</a>
+</p>
 
 Small C++ exercise for Windows that follows a tutorial on process memory: one program holds an integer in memory and prints its address, and a second program overwrites that integer using the Win32 API.
 
@@ -60,7 +64,6 @@ Run both programs only on your own machine, and only against each other.
 hack.cpp      Writer: OpenProcess + WriteProcessMemory
 program.cpp   Test target that prints its PID and variable address
 .editorconfig Tabs, LF line endings, UTF-8
-.vscode/      Editor settings and IntelliSense configuration for MinGW
 ```
 
 ## License
